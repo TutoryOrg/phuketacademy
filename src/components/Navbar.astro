@@ -3,28 +3,6 @@ import TPLogo from "../assets/logo.png";
 import Dropdown from "./Dropdown.astro";
 import { Picture } from "astro:assets";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
-// oconst navItems = [
-//   {
-//     title: "Experiencia",
-//     label: "experiencia",
-//     url: "/#experiencia",
-//   },
-//   {
-//     title: "Proyectos",
-//     label: "proyectos",
-//     url: "/#proyectos",
-//   },
-//   {
-//     title: "Sobre mí",
-//     label: "sobre-mi",
-//     url: "/#sobre-mi",
-//   },
-//   {
-//     title: "Contacto",
-//     label: "contacto",
-//     url: "mailto:miduga@gmail.com",
-//   },
-// ]
 
 const menuitems = [
     {
@@ -55,7 +33,7 @@ const menuitems = [
                 <Picture
                     src={TPLogo}
                     alt="TP Phuket Academy"
-                    class="w-20 h-20 md:w-30 md:h-30"
+                    class="w-22 h-22"
                 />
             </a>
             <div class="block lg:hidden">
@@ -83,7 +61,7 @@ const menuitems = [
                                 <li>
                                     <a
                                         href={item.url}
-                                        class="flex lg:px-3 py-2 items-center text-white hover:text-gray-900"
+                                        class="flex lg:px-3 py-2 items-center text-white hover:scale-110 hover:text-yellow-500"
                                     >
                                         <span> {item.title}</span>
                                         {item.badge && (
