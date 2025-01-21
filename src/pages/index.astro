@@ -2,12 +2,18 @@
 import Hero from "../components/Hero.astro";
 import SectionContainer from "../components/SectionContainer.astro";
 import Layout from "../layouts/Layout.astro";
+import Contact from "./Contact.astro";
 import Pricing from "./Pricing.astro";
 ---
 
 <Layout title="TP Phuket Academy" description="Phuket Football Academy">
 	<Hero />
-	<SectionContainer id="pricing">
-		<Pricing />
-	</SectionContainer>
+	<div class="container mx-auto sm:px-5 md:px-0 lg:px-0">
+		<SectionContainer id="pricing">
+			<Pricing />
+		</SectionContainer>
+		<SectionContainer id="contact">
+			<Contact />
+		</SectionContainer>
+	</div>
 </Layout>
