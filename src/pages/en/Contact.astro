@@ -1,9 +1,8 @@
 ---
-import Contactform from "../components/Contactform.astro";
-import MailIcon from "../components/MailIcon.astro";
-import MapIcon from "../components/MapIcon.astro";
-import PhoneIcon from "../components/PhoneIcon.astro";
-// import Icon from "../components/Icon.astro";
+import MapIcon from "../../components/MapIcon.astro";
+import MailIcon from "../../components/MailIcon.astro";
+import Contactform from "../../components/Contactform.astro";
+import PhoneIcon from "../../components/PhoneIcon.astro";
 ---
 
 <div
@@ -15,32 +14,29 @@ import PhoneIcon from "../components/PhoneIcon.astro";
             <h2 class="font-medium text-2xl text-gray-800">
                 Contact TP Elite Phuket
             </h2>
-            <p class="text-lg leading-relaxed text-slate-500 mt-3">
+            <p class="text-lg leading-relaxed text-slate-700 mt-3">
                 We are here to help you with any questions you may have. Reach
                 out to us and we will respond as soon as we can.
             </p>
             <div class="mt-5 text-[18px]">
                 <div class="flex items-center mt-2 space-x-2">
-                    <!-- <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" /> -->
                     <MapIcon class="bg-black" />
                     <a
                         href="https://www.google.com/maps/place/%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%9F%E0%B8%B8%E0%B8%95%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AB%E0%B8%8D%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1+7+SOCCER+CLUB+PHUKET/@7.8657015,98.3702678,17z/data=!3m1!4b1!4m6!3m5!1s0x30502e22bdbdb253:0x7227dafa7a0970be!8m2!3d7.8657015!4d98.3728427!16s%2Fg%2F11bxm_bk9q?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
                         target="_blank"
-                        class="text-size-xl hover:text-yellow-500"
+                        class="text-size-xl hover:text-yellow-700"
                         >104/57 ถนน เจ้าฟ้า ซอย เฉลิมพล Wichit, อำเภอ
                         เมืองภูเก็ต Phuket 83000</a
                     >
                 </div><div class="flex items-center mt-2 space-x-2">
-                    <!-- <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /> -->
                     <MailIcon />
                     <a
                         href="mailto:tpelitephuket@gmail.com"
-                        class="hover:text-yellow-500">tpelitephuket@gmail.com</a
+                        class="hover:text-yellow-700">tpelitephuket@gmail.com</a
                     >
                 </div><div class="flex items-center mt-2 space-x-2">
-                    <!-- <Icon class="text-gray-400 w-4 h-4" name="uil:phone" /> -->
                     <PhoneIcon />
-                    <a class="hover:text-yellow-500" ">+66 0842467603</a>
+                    <a class="hover:text-yellow-700">+66 0842467603</a>
                 </div>
             </div>
         </div>

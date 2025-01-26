@@ -3,22 +3,25 @@ import TPLogo from "../assets/logo.png";
 import Dropdown from "./Dropdown.astro";
 import { Picture } from "astro:assets";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import { getLangFromUrl, useTranslations } from "../i18/utils";
 
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 const menuitems = [
     {
-        title: "Pricing",
+        title: t("pricing"),
         url: "#pricing",
     },
     {
-        title: "Timetable",
+        title: t("timetable"),
         path: "/timetable",
     },
     {
-        title: "Coaches",
+        title: t("coaches"),
         path: "/coaches",
     },
     {
-        title: "Contact",
+        title: t("contact"),
         url: "#contact",
     },
 ];
@@ -79,4 +82,4 @@ const menuitems = [
         </MenuItems>
     </Astronav>
     <div></div>
-</header>
+</header>; ---

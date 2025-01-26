@@ -1,13 +1,15 @@
 ---
-import PricingCard from "../components/PricingCard.astro";
+import PricingCard from "../../components/PricingCard.astro";
+import { getLangFromUrl, useTranslations } from "../../i18/utils";
 
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 const pricing = [
     {
-        name: "Ages for + 3 y.o",
+        name: t("price_0"),
         price: {
             monthly: "3900 THB",
             yearly: "39000 THB",
-            // original: "4500 THB",
         },
         popular: false,
         features: [
@@ -20,7 +22,7 @@ const pricing = [
         },
     },
     {
-        name: "Ages for + 12 y.o",
+        name: t("price_1"),
         price: "5900 THB",
         popular: true,
         features: [
@@ -35,7 +37,7 @@ const pricing = [
         },
     },
     {
-        name: "Personal Training",
+        name: t("price_2"),
         price: "1500 THB",
         popular: true,
         features: ["1 Training session", "2 hours"],
