@@ -1,0 +1,27 @@
+---
+import Picture from "astro/components/Picture.astro";
+import facebookLogo from "../assets/facebook.png";
+import instagramLogo from "../assets/instalogo.webp";
+---
+
+<div
+    class="p-8 rounded-full mt-2 mx-auto w-[320px] flex flex-row items-center justify-around"
+>
+    <a
+        href="https://www.facebook.com/profile.php?id=61572887635192"
+        target="_blank"
+    >
+        <Picture
+            src={facebookLogo}
+            alt="Facebook Page"
+            class="w-20 h-20 hover:scale-110 transition duration-300"
+        />
+    </a>
+    <a href="https://www.instagram.com/tp_elite_phuket/" target="_blank">
+        <Picture
+            src={instagramLogo}
+            alt="Facebook Page"
+            class="w-20 h-20 hover:scale-110 transition duration-300"
+        />
+    </a>
+</div>
