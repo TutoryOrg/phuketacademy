@@ -1,5 +1,5 @@
 ---
-import Footer from "../components/Footer.astro";
+import Carousel from "../components/Carousel.astro";
 import Hero from "../components/Hero.astro";
 import SectionContainer from "../components/SectionContainer.astro";
 import Layout from "../layouts/Layout.astro";
@@ -11,11 +11,11 @@ import Pricing from "./en/Pricing.astro";
 <Layout title="TP Phuket Academy" description="Phuket Football Academy">
 	<Hero />
 	<div class="container mx-auto sm:px-5 md:px-0 lg:px-0">
-		<SectionContainer id="pricing">
-			<Pricing />
-		</SectionContainer>
 		<SectionContainer id="coaches">
 			<Coaches />
+		</SectionContainer>
+		<SectionContainer id="pricing">
+			<Pricing />
 		</SectionContainer>
 		<SectionContainer id="contact">
 			<Contact />

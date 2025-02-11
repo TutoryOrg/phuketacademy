@@ -9,16 +9,16 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const menuitems = [
     {
+        title: t("coaches"),
+        url: "#coaches",
+    },
+    {
         title: t("pricing"),
         url: "#pricing",
     },
     {
         title: t("timetable"),
         url: "#timetable",
-    },
-    {
-        title: t("coaches"),
-        url: "#coaches",
     },
     {
         title: t("contact"),
