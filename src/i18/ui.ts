@@ -14,10 +14,10 @@ export const ui = {
 		contact: "Contact",
 		welcome: "Welcome to TP Phuket Academy",
 		description:
-			"Welcome to TP Elite Phuket, where passion meets excellence in football" +
-			"development. Our academy offers world-class coaching, cutting-edge" +
-			"training facilities, and a proven path for players of all levels to" +
-			"improve their skills, fitness, and understanding of the game. Join us" +
+			"Welcome to TP Elite Phuket, where passion meets excellence in football " +
+			"development. Our academy offers world-class coaching, cutting-edge " +
+			"training facilities, and a proven path for players of all levels to " +
+			"improve their skills, fitness, and understanding of the game. Join us " +
 			"and take the first step toward reaching your footballing potential!",
 		price_0: "Ages from 6 to 9 y.o",
 		price_0_ft_0: "2 Training sessions per week",
@@ -38,11 +38,11 @@ export const ui = {
 		contact: "ติดต่อ",
 		welcome: "ยินดีต้อนรับสู่ TP Phuket Academy",
 		description:
-			"ยินดีต้อนรับสู่ TP Elite Phuket ที่ความหลงใหล่" +
-			"เจอกับความเป็นเลิศในการพัฒนาฟุตบอล สถาบันของเรา" +
-			"มีโค้ชระดับโลก สิ่งอำนวยความสะดวกในการฝึกซ้อม" +
-			"ที่ทันสมัย และเส้นทางที่ได้รับการยืนยันสำหรับผู้เล่น" +
-			"ในระดับทุกระดับในการปรับปรุงทักษะ สุขภาพ และความเข้าใจ" +
+			"ยินดีต้อนรับสู่ TP Elite Phuket ที่ความหลงใหล่ " +
+			"เจอกับความเป็นเลิศในการพัฒนาฟุตบอล สถาบันของเรา " +
+			"มีโค้ชระดับโลก สิ่งอำนวยความสะดวกในการฝึกซ้อม " +
+			"ที่ทันสมัย และเส้นทางที่ได้รับการยืนยันสำหรับผู้เล่น " +
+			"ในระดับทุกระดับในการปรับปรุงทักษะ สุขภาพ และความเข้าใจ " +
 			"เกม มาร่วมเราและเริ่มต้นการเดินทางในการเติบโตในฟุตบอลของคุณ!",
 		price_0: "อายุ + 3 ปี",
 		price_0_ft_0: "ฝึก 2 ครั้งต่อสัปดาห์",
